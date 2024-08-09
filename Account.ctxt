@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Account
+comment0.text=\r\n\ A\ Demo\ Bank\ Account.\r\n\ Represents\ a\ simple\ bank\ account\ with\ basic\ operations\ like\ deposit\ and\ withdrawal.\r\n\ \r\n\ @author\ Dawit\ Getachew\r\n\ @version\ V2.0\r\n
+comment1.params=
+comment1.target=Account()
+comment2.params=initialBalance
+comment2.target=Account(double)
+comment3.params=amount
+comment3.target=void\ deposit(double)
+comment3.text=\r\n\ Deposits\ a\ specified\ amount\ into\ the\ account.\r\n\ \r\n\ @param\ amount\ The\ amount\ to\ deposit.\ Must\ be\ positive.\r\n\ @throws\ IllegalArgumentException\ if\ the\ amount\ is\ negative.\r\n
+comment4.params=amount
+comment4.target=void\ withdraw(double)
+comment4.text=\r\n\ Withdraws\ a\ specified\ amount\ from\ the\ account.\r\n\ \r\n\ @param\ amount\ The\ amount\ to\ withdraw.\ Must\ be\ positive\ and\ less\ than\ or\ equal\ to\ the\ current\ balance.\r\n\ @throws\ InsufficientFundsException\ if\ the\ amount\ is\ greater\ than\ the\ balance.\r\n
+comment5.params=
+comment5.target=double\ getBalance()
+comment5.text=\r\n\ Returns\ the\ current\ balance\ of\ the\ account.\r\n\ \r\n\ @return\ The\ current\ balance.\r\n
+comment6.params=
+comment6.target=java.util.List\ getTransactionLog()
+comment6.text=\r\n\ Returns\ the\ transaction\ log\ of\ the\ account.\r\n\ \r\n\ @return\ The\ transaction\ log.\r\n
+comment7.params=message
+comment7.target=void\ logTransaction(java.lang.String)
+numComments=8

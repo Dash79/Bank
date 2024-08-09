@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=InsufficientFundsException
+comment0.text=\r\n\ Custom\ exception\ for\ insufficient\ funds.\r\n\ \r\n\ @version\ V2.0\r\n
+comment1.params=message
+comment1.target=InsufficientFundsException(java.lang.String)
+numComments=2
